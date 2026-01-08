@@ -1,0 +1,28 @@
+.card {
+    width: 100%;
+    background: var(--color-bg-card);
+    border-radius: var(--radius-card);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--shadow-card);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--color-text);
+}
+
+.price {
+    font-size: 14px;
+    color: var(--color-price);
+}
+
